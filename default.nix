@@ -2,7 +2,6 @@
 , cmake
 , cli11
 , openssl
-, asio
 , fmt
 }:
 
@@ -17,5 +16,5 @@ stdenv.mkDerivation rec {
   '';
 
   nativeBuildInputs = [ cmake ];
-  buildInputs = [ openssl cli11 asio fmt];
+  buildInputs = [ openssl cli11 fmt ];
 }

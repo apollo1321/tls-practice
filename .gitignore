@@ -1,2 +1,5 @@
 *build*
 .root
+result
+key.txt
+.cache
